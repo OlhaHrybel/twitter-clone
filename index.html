@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Twitter</title>
+        <link href="assets/css/index.css" rel="stylesheet">
+        <script src="./assets/script/index.js"></script>
+    </head>
+    <body>
+        <div class="wholeblock">
+            
+            <div class="block1">
+
+                <div class="wholebutton_block1">
+  
+                    <div class="b1_button_block1">
+                        <div class="button_block1_size1">
+                        <button class="button_block1">
+                            <img src="./assets/img/1.png" class="img_block1_type1"/>
+                        </button>
+                        </div> 
+
+                        <div class="button_block1_size1">
+                        <button class="button_block1">
+                            <img src="./assets/img/2.png" class="img_block1_type1"/>
+                            <div class="text_block1">
+                                <p>Home</p>
+                            </div>
+                        </button>
+                        </div>
+
+                        <div class="button_block1_size1">
+                        <button class="button_block1">
+                            <img src="./assets/img/3.png" class="img_block1_type1"/>
+                            <div class="text_block1">
+                                Explore
+                            </div>
+                        </button>
+                        </div>
+
+                        <div class="button_block1_size1">
+                        <button class="button_block1">
+                            <img src="./assets/img/4.png" class="img_block1_type1"/>
+                            <div class="text_block1">
+                                Notification
+                            </div>
+                        </button>
+                        </div>
+
+                        <div class="button_block1_size1">
+                        <button class="button_block1">
+                            <img src="./assets/img/5.png" class="img_block1_type1"/>
+                            <div class="text_block1">
+                                Messages
+                            </div>
+                        </button>
+                        </div>
+
+                        <div class="button_block1_size1">
+                        <button class="button_block1">
+                            <img src="./assets/img/6.png" class="img_block1_type1"/>
+                            <div class="text_block1">
+                                Lists
+                            </div>
+                        </button>
+                        </div>
+
+                        <div class="button_block1_size1">
+                        <button class="button_block1">
+                            <img src="./assets/img/1.png" class="img_block1_type1"/>
+                            <div class="text_block1">
+                            Premium
+                            </div>
+                        </button>
+                        </div>
+
+                        <div class="button_block1_size1">
+                        <button class="button_block1">
+                            <img src="./assets/img/7.png" class="img_block1_type1"/>
+                            <div class="text_block1">
+                                Profile
+                            </div>
+                        </button>
+                        </div>
+
+                        <div class="button_block1_size1">
+                        <button class="button_block1">
+                            <img src="./assets/img/8.png" class="img_block1_type1"/>
+                            <div class="text_block1">
+                                More
+                            </div>
+                        </button>
+                        </div>
+
+<!--_______________blue button__________________-->
+
+                    <div class="button_block1_size2">
+                    <button class="button_block1_2">
+                        <!--<img src="./assets/img/9.png" class="img_block1_type2"/>-->
+                        <div class="text_block1_2"> 
+                            Post
+                        </div>     
+                    </button>
+                    </div>
+                    
+                    </div>
+                </div>
+<!--_______________The biggest button__________________-->   
+
+                    <div class="button_block1_size3">
+                        <button class="button_block1_3">
+
+                            <img src="./assets/img/10.png" class="img_block1_type3"/>
+                            <div class="text_block1_3">
+                                <div class="text_block1_3_1">Olha Hrybel</div>
+                                <div class="text_block1_3_2"> @OlhaHrybel</div>
+                            </div>
+                            
+                            <img src="./assets/img/11.png" class="img_block1_type4"/>
+                        </button>
+                    </div>
+               
+                
+            </div>
+
+           
+
+<!--____________________________________________             BLOCK 2             __________________-->  
+
+            <div class="block2">
+
+                <!-- For You / Settings-->
+                <div class="block2_top">
+                    <div class="block2_top_for_you">
+
+                        <button class="block2_top_for_you_button" onclick=block2_top_for_you_button_appearance_of_strip()>For you
+                            <div class="block2_top_for_you_button_blue_stripe" id="block2_top_for_you_button_blue_stripe">
+                            </div>
+                        </button>
+                    </div>
+                    
+
+                    <div class="block2_top_following" onclick=block2_top_following_button_appearance_of_strip()>
+                        <button class="block2_top_following_button">Following
+                            <div class="block2_top_following_button_blue_stripe" id="block2_top_following_button_blue_stripe">
+                            </div>
+                        </button>
+                    </div>
+
+                    <div class="block2_top_settings">
+                        <button class="block2_top_settings_button">
+                            <img src="./assets/img/12.png" class="img_block2_settings"/>
+                        </button>
+                    </div>
+                </div>
+                
+                <!--What is happening-->
+
+                <div class="block2_main">
+                    <div class="block2_main_happening">
+
+                        <div class="block2_main_happening_1" id="block2_main_happening_1">
+                            <img src="./assets/img/10.png" class="img_block2_type1"/>
+                            <input type="What is happening?!"  placeholder="What is happening?!" class="block2_main_search" id="what_is_happening" 
+                                    onfocusin = show_block2_main_happening_2_blue()  
+                                    onblur = hide_block2_main_happening_2_blue()
+                                    oninput=button_1_block2_main_search() 
+                                    onchange =button_2_block2_main_search()>
+                        </div>     
+
+
+
+                        <div class="block2_main_happening_2_blue" id="block2_main_happening_2_blue">
+                            <img src="./assets/img/19.png" class="img_block2_type2"/>
+                            <p class="block2_main_happening_text_blue">Everyone can reply</p>
+                        </div>
+
+                    </div>
+                    <div class="block2_main_buttons">
+                        <div class="block2_main_buttons_all">
+                            <button class="block2_main_buttons_img">
+                                <img src="./assets/img/13.png" class="img_block2_type3"/>    
+                            </button>
+
+                            <button class="block2_main_buttons_img">
+                                <img src="./assets/img/14.png" class="img_block2_type3"/>    
+                            </button>
+
+                            <button class="block2_main_buttons_img">
+                                <img src="./assets/img/15.png" class="img_block2_type3"/>    
+                            </button>
+
+                            <button class="block2_main_buttons_img">
+                                <img src="./assets/img/17.png" class="img_block2_type3"/>    
+                            </button>
+
+                            <button class="block2_main_buttons_img">
+                                <img src="./assets/img/17.png" class="img_block2_type3"/>    
+                            </button>
+
+                            <button class="block2_main_buttons_img">
+                                <img src="./assets/img/13.png" class="img_block2_type3"/>    
+                            </button>
+                        </div>
+                        
+                        <div class="block2_main_buttons_blue">
+                            <button onclick="post()" class="button_block2_blue" id="button_block2_blue">
+
+                                <div class="text_block2_blue"> 
+                                    Post
+                                </div>     
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="block2_bottom">
+                    <p class="block2_main_happening_text_blue_2">Show 25 posts</p>
+                </div>
+
+                <!--Post-->
+            
+
+                <div class="block2_all_post" id="block2_all_post">
+                </div>
+                    
+                <div class="block2_all_2_post" id="block2_all2_post">
+                    <div class="block2_post">
+
+                        <div class="block2_post_photo">
+                            <img src="./assets/img/10.png" class="img_block2_type6"/>                                                     
+                        </div>
+
+                        <div class="block2_post_main">
+                            <div class="block2_post_main_profile">
+                                <div class="block2_post_main_profile_1">      
+                                    <div class="block2_post_main_profile_text_1">Olha Hrybel  ☑️</div>
+                                    <div class="block2_post_main_profile_text_2">@OlhaHrybel</div>
+                                </div>
+                                <div class="block2_post_main_profile_2">
+                                    <img src="./assets/img/11.png" class="img_block2_type4"/>
+                                </div>                                  
+                            </div>
+                            
+                            <div class="block2_post_main_text">
+                                Imperare sibi maximum imperium est 👑
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+
+                    <div class="block2_post">
+
+                        <div class="block2_post_photo">
+                            <img src="./assets/img/10.png" class="img_block2_type6"/>                                                     
+                        </div>
+
+                        <div class="block2_post_main">
+                            <div class="block2_post_main_profile">
+                                <div class="block2_post_main_profile_1">      
+                                    <div class="block2_post_main_profile_text_1">Olha Hrybel  ☑️</div>
+                                    <div class="block2_post_main_profile_text_2">@OlhaHrybel</div>
+                                </div>
+                                <div class="block2_post_main_profile_2">
+                                    <img src="./assets/img/11.png" class="img_block2_type4"/>
+                                </div>                                  
+                            </div>
+                            
+                            
+                            <div class="block2_post_main_text">
+                                My lovely family ❤️
+                            </div>
+
+                            <div class="block2_post_main_picture">
+                                <img src="./assets/img/20.jpg" class="img_block2_type5"/>               
+                            </div>
+                            
+                        </div>
+
+                    </div>
+                </div>
+                    
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--____________________________________________             BLOCK 3             __________________-->
+
+<div class="block3">
+                <!-- Search -->
+                <div class="block3_search">
+                    <button class="block3_button1" id="block3_button1">
+                        <img src="./assets/img/3.png" class="img_block3_type1"/>
+                        <input type="search"  placeholder="Search" class="search" onfocusin =search_1_block3_button1() onblur =search_2_block3_button1()>
+                    </button>                
+                </div>
+
+                <!-- Subscribe to Premium -->
+                <div class="blocks_block3">
+                    <div class="block3_title" >Subscribe to Premium</div>
+                    <div class="block3_text">Subscribe to unlock new features and if eligible, receive a share of ads revenue.</div>
+                    <div>
+                        <button class="block3_subscribe_follow">
+                             Subscribe
+                        </button> 
+                    </div>
+                    <div class="interval"></div>
+                </div>
+
+                <!-- Who to follow-->
+                <div class="blocks_block3">
+
+                    <div class="block3_title" > Who to follow</div>
+
+                    <!--1-->                 
+                    <div class="blocks_block3_people_2">
+
+                        <div class="people_photo">
+                            <img src="./assets/img/10.png" class="img_block1_type3"/>
+                        </div>
+
+                         <div class="people_text">
+                            <div class="people_text1">Olha Hrybel</div>
+                            <div class="people_text2">@OlhaHrybel</div>
+                         </div> 
+
+                        <div class="people_button">
+                            <button class="block3_follow">
+                                Follow
+                            </button>     
+                        </div>     
+                    </div>
+
+                    <!--2-->
+                    <div class="blocks_block3_people_2">
+
+                        <div class="people_photo">
+                            <img src="./assets/img/10.png" class="img_block1_type3"/>
+                        </div>
+
+                        <div class="people_text">
+                            <div class="people_text1">Olha Hrybel</div>
+                            <div class="people_text2">@OlhaHrybel</div>
+                        </div> 
+
+                        <div class="people_button">
+                            <button class="block3_follow">
+                                Follow
+                            </button>     
+                        </div>     
+                    </div>    
+
+                    <!--3-->
+                    <div class="blocks_block3_people_2">
+
+                        <div class="people_photo">
+                            <img src="./assets/img/10.png" class="img_block1_type3"/>
+                        </div>
+
+                        <div class="people_text">
+                            <div class="people_text1">Olha Hrybel</div>
+                            <div class="people_text2">@OlhaHrybel</div>
+                        </div> 
+
+                        <div class="people_button">
+                            <button class="block3_follow">
+                                Follow
+                            </button>     
+                        </div>     
+                    </div>
+
+                    <!--Show more-->                  
+                    <div class="more"> 
+                        <p class="more_text">Show more</p>
+                    </div>
+                    <div class="interval"></div>
+
+                </div>
+
+
+
+ <!-- Czechia trends -->
+                 <div class="blocks_block3">
+
+                    <div class="block3_title" >Czechia trends</div>
+
+                    <!--1-->                 
+                    <div class="blocks_block3_trends">
+
+                         <div class="trends_text">
+                            <div class="trends_text1">1-Trending</div>
+                            <div class="trends_text2">Valentine's Day</div>
+                            <div class="trends_text3">1.47M posts</div>
+                         </div> 
+
+                        <div class="trends_img">
+                            <img src="./assets/img/11.png" class="img_trends_type1"/>
+                        </div>
+                    </div>     
+                    
+                    <!--2-->                 
+                    <div class="blocks_block3_trends">
+
+                         <div class="trends_text">
+                            <div class="trends_text1">2-Trending</div>
+                            <div class="trends_text2">London</div>
+                            <div class="trends_text3">171K posts</div>
+                         </div> 
+
+                        <div class="trends_img">
+                            <img src="./assets/img/11.png" class="img_trends_type1"/>
+                        </div>
+                    </div>
+
+                    <!--3-->                 
+                    <div class="blocks_block3_trends">
+
+                         <div class="trends_text">
+                            <div class="trends_text1">3-Trending</div>
+                            <div class="trends_text2">Musk</div>
+                            <div class="trends_text3">120K posts</div>
+                         </div> 
+
+                        <div class="trends_img">
+                            <img src="./assets/img/11.png" class="img_trends_type1"/>
+                        </div>
+                    </div> 
+
+                <!--Show more-->                  
+                    <div class="more"> 
+                        <p class="more_text">Show more</p>
+                    </div>
+                    <div class="interval"></div>
+                
+                </div>
+
+
+
+                    
+
+                </div>
+
+
+
+
+
+
+
+</div>
+ 
+
+
+
+    </body>
+</html>
